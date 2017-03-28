@@ -1,0 +1,52 @@
+{
+    "name": "thesaturn/xmpplogger",
+    "description": "PSR3 compliant XMPPLogger for PHP",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.3",
+        "fabiang/xmpp": "^0.6.1",
+        "psr/log": "~1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TheSaturn",
+            "email": "saturn@thesaturn.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "keywords": ["jabber", "xmpp"],
+    "authors": [
+        {
+            "name": "Fabian Grutschus",
+            "email": "f.grutschus@lubyte.de",
+            "homepage": "http://www.lubyte.de/",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fabiang\\Xmpp\\": "src/"
+        }
+    },
+    "suggest": {
+        "psr/log-implementation": "Allows more advanced logging of the xmpp connection"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "archive": {
+        "exclude": [
+            ".gitignore",
+            ".gitattributes",
+            ".scrutinizer.yml",
+            ".travis.yml",
+            "/tests",
+            "/docs",
+            "/bin",
+            "/example.php"
+        ]
+    }
+}

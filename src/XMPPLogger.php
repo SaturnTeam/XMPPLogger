@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: dm
- * Date: 12/24/16
- * Time: 5:15 PM
+ *
+ * This file is licensed under the MIT License. See the LICENSE file.
+ *
+ * @author Dmitry Volynkin <thesaturn@thesaturn.me>
  */
 
 namespace thesaturn\xmpplogger;

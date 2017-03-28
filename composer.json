@@ -18,11 +18,12 @@
   "minimum-stability": "stable",
   "keywords": [
     "jabber",
-    "xmpp"
+    "xmpp",
+    "logger"
   ],
   "autoload": {
     "psr-4": {
-      "TheSaturn\\xmpplogger\\": "src/"
+      "thesaturn\\xmpplogger\\": "src/"
     }
   },
   "suggest": {

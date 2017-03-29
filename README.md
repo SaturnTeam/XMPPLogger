@@ -19,7 +19,7 @@ $log = new XMPPLogger($client, $config['xmpp']['to']);
 $log->info("hello log");
 ```
 ## Installation
-Add a string to the composer:
+Add following lines to the composer:
 ```
 "require": {
     "thesaturn/xmpplogger": "1.0"
